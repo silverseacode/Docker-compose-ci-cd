@@ -23,6 +23,6 @@ jobs:
           environment_name: Docker-react-3-env
           version_label: ${{ github.sha }}
           version_description: "Deployed from GitHub actions"
-          existing_bucket_name: lucky-quit-bucket
+          existing_bucket_name: elasticbeanstalk-us-west-1-937930689310
           region: us-west-1
           deployment_package: deploy.zip
