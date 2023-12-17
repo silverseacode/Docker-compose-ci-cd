@@ -2,7 +2,7 @@ name: Deploy React to AWS
 on:
   push:
     branches:
-      - "Docker-compose-CI/CD-AWS-Beanstalk"
+      - "main"
 
 jobs:
   deploy:
@@ -19,9 +19,9 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: docker-react-2
-          environment_name: Docker-react-2-env
+          application_name: docker-react-3
+          environment_name: Docker-react-3-env
           version_label: ${{ github.sha }}
           existing_bucket_name: elasticbeanstalk-us-west-1-937930689310
-          region: us-east-1
+          region: us-west-1
           deployment_package: deploy.zip
