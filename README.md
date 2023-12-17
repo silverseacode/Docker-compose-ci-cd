@@ -8,7 +8,7 @@ In the project dircoy u can run:
 
 ### `npm start`
 
-Runs the app in thedevelopnt mode.\
+Runs the app in twhedevelopnt mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
