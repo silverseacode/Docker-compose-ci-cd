@@ -21,7 +21,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: docker-react-3
           environment_name: Docker-react-3-env
-          version_label: "Label7"
+          version_label: "Label8"
           version_description: "Deployed from GitHub actions"
           existing_bucket_name: lucky-quit-bucket
           region: us-west-1
