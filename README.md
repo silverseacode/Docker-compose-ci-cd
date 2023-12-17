@@ -9,7 +9,7 @@ In the project dircoy u can run:
 ### `npm start`
 
 Runs the app in twhedevelopnt mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to iew it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
